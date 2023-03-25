@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    display: flex;
+}
+
+/*decoracion de la parte izquierda de la pantalla*/
+.izquierda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-color: white;
+}
+
+/*todo el contenido del login*/
+.login{
+    width: 50%;
+    align-items: center;
+}
+
+/*el h1*/
+.login h1{
+    font-size: 35px;
+}
+
+/*todas la p*/
+.login p{
+    color: grey;
+}
+
+/*el fomulario poniendo uno abajo del otro
+y poniendole tamaño*/
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*moviendo los label para que quede bien*/
+.login label{
+    padding-top: 15px;
+}
+
+/*haciendo que los imputs sean mas grandes y con
+bordes redondos*/
+input[type=email],input[type=password]{
+    padding: 13px 13px;
+    border-radius: 10px;
+}
+
+/*esta aca pongo en orden y espacio a la seccion
+que te recupera la contraseña*/
+.login .recuperar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+/*aca le doy diseño a los dos botones que tengo
+tamaño y borde por igual*/
+.login .ingresar,.regisGoogle{
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+/*solo el boron de ingresar lo modifico*/
+.login .ingresar{
+    background-color: rgb(0, 4, 39);
+    color: white;
+}
+
+/*solo el boton de registrarse con google lo modifico*/
+.login .regisGoogle{
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+}
+
+/*el logo de google (la imagen)*/
+.login .google{
+    width: 20px;
+    padding-right: 10px;
+}
+
+/*la seccion donde podes registrarte la pongo en orden
+para que se vean juntos y acomodados*/
+.login .registrarse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.info{
+    background-color: blueviolet;
+    width: 50%;
+    height: 100vh;
+}
+.info .foto{
+    width: 300px;
+}
+.info .estrella{
+    width: 30px;
+}
+.info .flechas{
+    width: 30px;
+}
