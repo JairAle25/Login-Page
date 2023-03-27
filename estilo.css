@@ -107,17 +107,49 @@ para que se vean juntos y acomodados*/
     padding-top: 20px;
 }
 
-.info{
-    background-color: blueviolet;
+.derecha{
+    background-image: url(mujer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:end;
+    justify-content:center;
     width: 50%;
     height: 100vh;
 }
-.info .foto{
-    width: 300px;
+.info{
+    border: solid;
+    width: 70%;
+    margin-bottom: 30px;  
 }
-.info .estrella{
-    width: 30px;
+
+.derecha p,.derecha h1{
+    color: white;
+    padding-left: 20px;
 }
-.info .flechas{
-    width: 30px;
+.derecha .citaTextual{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.derecha .cadaEstrella{
+    font-size: 13px;
+    color: white;
+    padding-right: 8px;
+}
+.derecha .estrellas{
+    display: flex;
+    justify-content: end;
+    padding-right: 12px;
+}
+.derecha .flechaI,.flechaD{
+    font-size: 35px;
+    color: white;
+    padding-right: 20px;
+}
+.derecha .creditos{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
