@@ -119,12 +119,14 @@ para que se vean juntos y acomodados*/
     height: 100vh;
 }
 .info{
-    border: solid;
     width: 70%;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243,243,243,0,2);
 }
 
-.derecha p,.derecha h1{
+.derecha p,.derecha h2{
     color: white;
     padding-left: 20px;
 }
