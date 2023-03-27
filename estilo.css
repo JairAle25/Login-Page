@@ -10,7 +10,12 @@ a{
     text-decoration: none;
     color: black;
 }
-
+a:hover{
+   font-size: 17px;
+}
+.regisGoogle a:hover{
+    font-size: 18px;
+}
 .hero{
     display: flex;
 }
@@ -38,7 +43,7 @@ a{
 
 /*todas la p*/
 .login p{
-    color: grey;
+    color: rgb(128, 128, 128);
 }
 
 /*el fomulario poniendo uno abajo del otro
@@ -76,7 +81,7 @@ tamaño y borde por igual*/
 .login .ingresar,.regisGoogle{
     padding: 8px 0px;
     border-radius: 10px;
-    font-size: 17px; 
+    font-size: 17px;
 }
 
 /*solo el boron de ingresar lo modifico*/
