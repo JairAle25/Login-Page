@@ -76,7 +76,7 @@ tamaño y borde por igual*/
 .login .ingresar,.regisGoogle{
     padding: 8px 0px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 17px; 
 }
 
 /*solo el boron de ingresar lo modifico*/
@@ -90,11 +90,14 @@ tamaño y borde por igual*/
     width: 100%;
     margin-top: 15px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*el logo de google (la imagen)*/
 .login .google{
-    width: 20px;
+    width: 28px;
     padding-right: 10px;
 }
 
@@ -106,7 +109,7 @@ para que se vean juntos y acomodados*/
     align-items: center;
     padding-top: 20px;
 }
-
+/*Lado derecho de la pagina*/
 .derecha{
     background-image: url(mujer.jpg);
     background-repeat: no-repeat;
@@ -118,38 +121,43 @@ para que se vean juntos y acomodados*/
     width: 50%;
     height: 100vh;
 }
+/*contenido y fondo del texto*/
 .info{
     width: 70%;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background-color: rgba(243,243,243,0,2);
 }
-
+/*color de los textos*/
 .derecha p,.derecha h2{
     color: white;
     padding-left: 20px;
 }
+/*tamaño y espaciado de la cita*/
 .derecha .citaTextual{
     font-size: 25px;
     padding-top: 10px;
 }
-
+/*modifique cada estrella*/
 .derecha .cadaEstrella{
     font-size: 13px;
     color: white;
     padding-right: 8px;
 }
+/*movi a las 5 estrellas juntas*/
 .derecha .estrellas{
     display: flex;
     justify-content: end;
     padding-right: 12px;
 }
+/*modifique el diseño de las flechas*/
 .derecha .flechaI,.flechaD{
     font-size: 35px;
     color: white;
     padding-right: 20px;
 }
+/*modifique el lugar donde esta la parte
+final del texto*/
 .derecha .creditos{
     display: flex;
     justify-content: space-between;
