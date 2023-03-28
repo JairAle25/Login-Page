@@ -13,9 +13,7 @@ a{
 a:hover{
    font-size: 17px;
 }
-.regisGoogle a:hover{
-    font-size: 18px;
-}
+
 .hero{
     display: flex;
 }
@@ -64,6 +62,7 @@ bordes redondos*/
 input[type=email],input[type=password]{
     padding: 13px 13px;
     border-radius: 10px;
+    border: 2px solid rgb(146, 137, 137);
 }
 
 /*esta aca pongo en orden y espacio a la seccion
@@ -76,12 +75,13 @@ que te recupera la contraseña*/
     padding: 15px 0px;
 }
 
-/*aca le doy diseño a los dos botones que tengo
+/*aca le doy diseño al botones que tengo
 tamaño y borde por igual*/
-.login .ingresar,.regisGoogle{
+.login .ingresar{
     padding: 8px 0px;
     border-radius: 10px;
     font-size: 17px;
+    border: 2px solid rgb(146, 137, 137);
 }
 
 /*solo el boron de ingresar lo modifico*/
@@ -91,10 +91,14 @@ tamaño y borde por igual*/
 }
 
 /*solo el boton de registrarse con google lo modifico*/
-.login .regisGoogle{
+.login .regisGoogle a{
     width: 100%;
     margin-top: 15px;
-    background-color: white;
+    font-size: 17px;
+    padding: 8px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(146, 137, 137);
     display: flex;
     align-items: center;
     justify-content: center;
