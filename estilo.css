@@ -11,7 +11,7 @@ a{
     color: black;
 }
 a:hover{
-   font-size: 17px;
+   text-decoration:underline;
 }
 
 .hero{
@@ -81,7 +81,7 @@ tamaño y borde por igual*/
     padding: 8px 0px;
     border-radius: 10px;
     font-size: 17px;
-    border: 2px solid rgb(146, 137, 137);
+    border: none;
 }
 
 /*solo el boron de ingresar lo modifico*/
