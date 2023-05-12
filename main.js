@@ -3,17 +3,13 @@ const ojoAbierto = document.getElementById("ojoAbierto");
 const ojoCerrado = document.getElementById("ojoCerrado");
 
 ojoAbierto.addEventListener('click',()=>{
-    ojoAbierto.classList.remove('mostrar')
-    ojoAbierto.classList.add('ocultar');
-    ojoCerrado.classList.remove('ocultar');
-    ojoCerrado.classList.add('mostrar');
+    ojoAbierto.classList.replace('mostrar','ocultar')
+    ojoCerrado.classList.replace('ocultar', 'mostrar')
     inputContraseña.type="text";
 })
 
 ojoCerrado.addEventListener('click',()=>{
-    ojoCerrado.classList.remove('mostrar');
-    ojoCerrado.classList.add('ocultar');
-    ojoAbierto.classList.remove('ocultar');
-    ojoAbierto.classList.add('mostrar');
+    ojoCerrado.classList.replace('mostrar','ocultar');
+    ojoAbierto.classList.replace('ocultar','mostrar');
     inputContraseña.type = "password";
 })
